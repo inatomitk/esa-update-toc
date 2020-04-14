@@ -1,2 +1,6 @@
 {
+  "token": "your token",
+  "team":  "your team name",
+  "tocDirectory": "your/tocDirectory/",
+  "tocPostId": "your toc post id"
 }
