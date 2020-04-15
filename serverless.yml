@@ -1,0 +1,15 @@
+service: esa-update-toc
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: your_region
+  stage: ${opt:stage, 'prod'}
+  role: your_role
+  timeout: 15
+
+functions:
+  index:
+    handler: index.handler
+    events:
+      - http: POST webhook
