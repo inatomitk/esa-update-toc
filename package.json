@@ -16,6 +16,6 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "serverless": "^1.67.3"
+    "serverless": "^3.25.1"
   }
 }
